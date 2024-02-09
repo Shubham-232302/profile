@@ -13,6 +13,21 @@ body {
     padding: 10px;
 } */
 
+.shadow{
+    box-shadow: 23px 16px 9px darkolivegreen;
+}
+
+.buttonMargin{
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 50px; /* Adjust the height as needed */
+}
+
+
 #profileCard{
     box-shadow: 23px 16px 9px darkolivegreen;
     /* max-width: 540px; */
@@ -33,3 +48,8 @@ footer{
 }
     
   }
+
+
+  a{
+    text-decoration: none;
+}

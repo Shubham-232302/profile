@@ -1,48 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="profile2.css">
     <title>Shubham Deodhar</title>
 </head>
 <body>
-    <center>
-        <div>
-            <h1 style="color:coral">Shubham Deodhar, Python Developer</h1>
-            <a href="#aboutMe"> About Me </a>
-            <a href="#Skills"> Skills </a>
+    <div>
+    <header class="container-fluid p-5 my-5 bg-dark text-white" style="text-align: center;">
+        <h1 style="color: aqua;">Shubham Deodhar</h1>
+        <p style="color: beige;">Python Developer, Front-End Developer.</p>
+        <nav class="container navbar-expand-sm bg-dark ">
+
+            <div class="container-fluid">
+              <!-- Links -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <button class="btn btn-success buttonMargin" ><a class="nav-link" href="#">About</a></button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-success buttonMargin"><a class="nav-link" href="#">Skills</a></button>
+                </li>
+                <li class="nav-item">
+                <button class="btn btn-success buttonMargin"><a class="nav-link" href="#">Experience</a></button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-success buttonMargin"><a class="nav-link" href="#">Education</a></button>
+                    </li>
+                <li class="nav-item">
+                    <button class="btn btn-success buttonMargin"><a class="nav-link" href="#">Projects</a></button>
+                    </li>
+              </ul>
+            </div>
+          
+          </nav>
+    </header>
+    
+    </div>
+
+    <div id = "profileCard" class="container card mb-3 border-0  cardClass col-xs-6">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="profilePic.JPG" class="img-fluid rounded-start cardClass" alt="...">
+          </div>
+          <div class="col-md-8 bg-info text-white">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Hello!!</h5>
+              <p class="card-text fs-5">I'm a Developer, Experienced in Coding Technologies (Python, core JAVA, C Programming Language, dJango), front-end development (ReactJS, HTML5, Javascript), database (Oracle), CI/CD(Jenkins), Version Control System(GIT). Good at grasping new technical concepts quickly & utilizing it in a productive manner. Passionate about developing innovative programs that expedite the efficiency and effectiveness of organizational success. Enthusiastic team player who is committed to deliver the best results</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
         </div>
-        <div style="width:50%;float:left">
-        <hr/>
-        <img src="20210114072424_IMG_1277.JPG" height = "370" width="400" alt="profile picture">
-        </div>
-        <div id="aboutMe" style="width:50%;float:right">
-        <hr/>
-        <h2>About me!</h2>
-        <p>I am an Electronics and Communication Engineer with a zeal to learn more. Experience in Python, core JAVA, C Programming Language. Good at grasping new technical concepts quickly & utilizing it in a productive manner. Passionate about developing innovative programs that expedite the efficiency and effectiveness of organizational success. Enthusiastic team player who is committed to deliver the best results<p>
-            <hr/>
-        </div>
-    </center>
-        <div id="Skills">
-            <h1 style="text-align: center;">Skills!</h1>
+      </div>
+      <hr>      
+
+      <div class="container card text-white bg-dark-subtle mb-3" style="box-shadow: 23px 16px 9px darkolivegreen;">
+        <div class="card-header fs-3" style="text-align: center; color: blueviolet;">Skills</div>
+        <div class="card-body" style="text-align: center;">
+          <!-- <h5 class="card-title">Dark card title</h5> -->
+          <a href="https://www.python.org" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" />
+        </a>
+        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+        </a>
+         <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" />
+        </a>
+    <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="41" />
+        </a>
+        <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
+        </a>
+        <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
+            <img src="https://juststickers.in/wp-content/uploads/2016/05/django-badge.png" alt="django" width="40" height="40" />
+        </a>
+        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
+        </a>
+        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
+        </a>
+        <a href="https://www.java.com" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40" />
+        </a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
+        </a>
+        <a href="https://www.jenkins.io" target="_blank" rel="noreferrer">
+            <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40" />
+        </a>
+        <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40" />
+        </a>
+        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
+        </a>
+        <a href="https://www.oracle.com/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40" />
+        </a>
         
-            <ul style="text-align: center;">
-                <li>Python</li>
-                <li>JAVA</li>
-                <li>ReactJS</li>
-                <li>C Language</li>
-            </ul>
+    <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40" />
+        </a>
+        <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" />
+        </a>
+    
+    
         </div>
+      </div>
 
-        <footer>
-            <center>
-        <hr/>
-        <a href="https://www.facebook.com/" target="_blank"><img src="fblogo.jpg" alt="fb logo" height="60" width="60"></a>
-        <a href="https://www.linkedin.com/in/shubham-deodhar-b17059b7/" target="_blank"><img src="linkedin.jpg" alt="linkedin logo" height="60" width="60"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="insta.jpg" alt="insta logo" height="60" width="60"></a>
-    </center>
-    </footer>
-
+      <footer class="container-fluid p-5 my-5 bg-dark text-white">
+        <p>&copy;My Resume</p>
+      </footer>
+    
 </body>
 </html>
+
+
+<!-- <div class="card text-white bg-dark mb-3" style="max-width: 18rem;"> -->
+
 
